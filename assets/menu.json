@@ -1,0 +1,57 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "remera blanca",
+        "categoria": "remeras",
+        "precio": 1500,
+        "imagen": "./assets/img/remera-blanca.jpg",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "Remera blanca de algodón, cómoda y versátil para cualquier ocasión."
+    },
+    {
+        "id": 2,
+        "nombre": "remera roja",
+        "categoria": "remeras",
+        "precio": 1500,
+        "imagen": "./assets/img/remera-roja.jpg",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "Remera roja de algodón, cómoda y versátil para cualquier ocasión."
+    },
+    {
+        "id": 3,
+        "nombre": "remera azul",
+        "categoria": "remeras",
+        "precio": 1500,
+        "imagen": "./assets/img/remera-azul.jpeg",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "Remera azúl de algodón, cómoda y versátil para cualquier ocasión."
+    },
+    {
+        "id": 4,
+        "nombre": "pantalon parachute verde",
+        "categoria": "pantalones",
+        "precio": 1500,
+        "imagen": "./assets/img/pantalon-parachute-verde.jpg",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "pantalon parachute verde, cómodo y versatil para cualquier ocasión"
+    },
+    {
+        "id": 5,
+        "nombre": "pantalon parachute negro",
+        "categoria": "pantalones",
+        "precio": 1500,
+        "imagen": "./assets/img/pantalon-parachute-negro.webp",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "pantalon parachute negro, cómodo y versatil para cualquier ocasión"
+    },
+    {
+        "id": 6,
+        "nombre": "pantalon parachute blanco",
+        "categoria": "pantalones",
+        "precio": 1500,
+        "imagen": "./assets/img/pantalon-parachute-blanco.webp",
+        "talles": ["S", "M", "L", "XL"],
+        "descripcion": "pantalon parachute blanco, cómodo y versatil para cualquier ocasión"
+    }
+]

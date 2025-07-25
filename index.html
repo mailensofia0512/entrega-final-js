@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Toastify -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+</head>
+
+<body>
+    <h1>Tienda de Ropa</h1>
+    <p>Bienvenido a nuestra tienda de ropa. Aquí encontrarás una variedad de prendas de alta calidad y estilo.</p>
+
+    <!-- Botón para mostrar/ocultar carrito -->
+    <button id="toggle-carrito">🛒 Ver carrito</button>
+
+    <!-- Contenedor productos -->
+    <div id="productos-contenedor" class="grilla-productos"></div>
+
+    <!-- Carrito (inicialmente oculto) -->
+    <div id="carrito" class="carrito oculto"></div>
+    <div id="total-carrito" class="carrito-total oculto"></div>
+    <button id="finalizar-compra" class="boton-finalizar oculto">Finalizar Compra</button>
+
+    <!-- Librerías SweetAlert2 y Toastify -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Tu JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

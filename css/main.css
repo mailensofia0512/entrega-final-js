@@ -1,0 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Botón toggle carrito */
+#toggle-carrito {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Contenedor productos */
+.grilla-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+  gap: 1rem;
+}
+
+/* Tarjetas de producto */
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.tarjeta-imagen {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta-titulo {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+
+.tarjeta-descripcion {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.tarjeta-precio {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.tarjeta-boton {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tarjeta-boton:hover {
+  background: #5348c8;
+}
+
+/* Carrito lateral */
+.carrito {
+  position: fixed;
+  right: 1rem;
+  top: 5rem;
+  width: 300px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+  z-index: 999;
+}
+
+.carrito-item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carrito-item p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.carrito-item button {
+  background: #ff5252;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.3s;
+}
+
+.carrito-item button:hover {
+  background: #cc3b3b;
+}
+
+/* Total y botón finalizar */
+.carrito-total {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+.boton-finalizar {
+  background-color: #6c63ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.boton-finalizar:hover {
+  background-color: #5348c8;
+}
+
+/* Ocultar elementos */
+.oculto {
+  display: none;
+}
